@@ -83,7 +83,7 @@ pub async fn text_to_speech(
         },
         input: Input { ssml: text },
         voice: Voice {
-            language_code: "en-US",
+            language_code: "en-AU",
             name: config.voice,
         },
     };
