@@ -79,6 +79,7 @@ pub async fn text_to_speech(
             audio_encoding: "OGG_OPUS",
             sample_rate_hertz: 16_000,
             speaking_rate: 0.9,
+			pitch: 5.20,
         },
         input: Input { ssml: text },
         voice: Voice {
