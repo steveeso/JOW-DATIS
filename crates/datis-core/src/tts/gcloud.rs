@@ -17,7 +17,7 @@ struct AudioConfig<'a> {
     audio_encoding: &'a str,
     sample_rate_hertz: u32,
     speaking_rate: f32,
-	pitch: f33,
+	pitch: f32,
 }
 
 #[derive(Serialize, Debug)]
