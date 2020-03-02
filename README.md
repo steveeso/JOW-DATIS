@@ -1,3 +1,9 @@
+Change all the stuff in the gcloud tts.rs file to point to en-AU. Pitch shift of 5.2 seems to work - however that will probably only be good for one voice. Is it possible to pitch shift each station individually?
+
+Anyhow, got it working except that it's using en-AU-StandardC instead of Australian Wavenet C.
+
+To-do: Test with an American Wavenet voice to see if there are some other country/language codes I need to change.
+
 # DATIS
 
 DCS World Automatic Terminal Information Service (ATIS) broadcasted through [Simple Radio Standalone](https://github.com/ciribob/DCS-SimpleRadioStandalone).
